@@ -1,4 +1,6 @@
 s = str(input())
 ss=s.split('#')
-i=len(ss)
-
+h=""
+for i in reversed(ss):
+    h=h+i+'#'
+print(h[0:len(h)-1])
